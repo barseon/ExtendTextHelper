@@ -15,7 +15,7 @@ etu::replaceEmail($text);
 ```
 ```php
 $text = 'Тест автозамены url в тексте http://domain.com';
-etu::replaceEmail($text);
+etu::replaceEmail($text); 
 //Тест автозамены url в тексте <a href="http://domain.com">http://domain.com</a>
 ```
 ```php
