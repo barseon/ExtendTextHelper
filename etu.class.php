@@ -3,7 +3,7 @@
 /**
  * Class ExtendTextUtil
  */
-class ExtendTextUtil
+class etu
 {
 
     /**
@@ -118,3 +118,4 @@ class ExtendTextUtil
     }
 
 }
+
