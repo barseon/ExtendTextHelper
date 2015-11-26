@@ -22,11 +22,11 @@ etu::replaceEmail($text);
 ```
 ```php
 $text = 'Вот логотип нашей компании <img src="logo.png">';
-echo etu::stripImages($text);
+etu::stripImages($text);
 //Вот логотип нашей компании</a>
 ```
 ```php
 $text = 'Вот логотип нашей компании';
-echo etu::toSlug($text);
+etu::toSlug($text);
 //вот-логотип-нашей-компании</a>
 ```
