@@ -1,12 +1,14 @@
 **Список методов**
-*replaceEmail - автозамена email
-*replaceUrl - автозамена url
-*truncateText - обрезает текст, без учета html тегов
-*stripImages - вырезает изображеие из текста 
-*stripScripts - вырезает скрипты из текста 
-*toSlug - создает slug из текста 
-*stripTags - убираем теги конструкции <X></X>
-*html - преобразуем теги для отображения на странице
+
+* replaceEmail - автозамена email
+* replaceUrl - автозамена url
+* truncateText - обрезает текст, без учета html тегов
+* stripImages - вырезает изображеие из текста 
+* stripScripts - вырезает скрипты из текста 
+* toSlug - создает slug из текста 
+* stripTags - убираем теги конструкции <X></X>
+* html - преобразуем теги для отображения на странице
+
 **Пример вызова некоторых методов**
 ```php
 $text = 'Тест автозамены email в тексте hello@domain.com';
